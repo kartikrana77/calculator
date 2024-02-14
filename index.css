@@ -1,21 +1,34 @@
 #calculator{
   border: 1px solid rgb(185, 185, 185);
   border-radius: 5px;
-  width: 200px;
+  width: 400px;
+  height: 890px;
+  background-color: antiquewhite;
 }
 
 #display{
   margin: 10px;
-  width: 85%;
-  font-size: 25px;
+  width: 88%;
+  font-size: 75px;
 }
 
 .button{
-  width: 45px;
-  height: 45px;
-  margin: 3px;
+  width: 95px;
+  height: 95px;
+  margin: 5px;
+
 }
 
+
+.button:hover{
+  background-color: aquamarine;
+}
+.button:active{
+  background-color: yellow;
+  color: red;
+  width: 93px;
+  height: 93px;
+}
 .button-cont{
   display: flex;
   justify-content: center;
