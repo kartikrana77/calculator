@@ -12,6 +12,10 @@ Array.from(button).forEach((button)=>{
             displayCount = '';
             input.value = displayCount;
         }
+        else if(e.target.innerHTML === 'DEL'){
+            displayCount = displayCount.substring(0,displayCount.length-1);
+            input.value =displayCount;
+        }
         else{
             displayCount += e.target.innerHTML;
             input.value = displayCount;
