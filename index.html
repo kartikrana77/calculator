@@ -8,25 +8,37 @@
 </head>
 <body>
     <div id="calculator">
-        <input type="text" id="display">
-        <div id="button-count">
-            <button class="button" onclick="displayCount = '';document.querySelector('#display').value = displayCount;">c</button>
-            <button class="button" onclick="displayCount += '1'; document.querySelector('#display').value = displayCount;">1</button>
-            <button class="button" onclick="displayCount += '2'; document.querySelector('#display').value = displayCount;">2</button>
-            <button class="button" onclick="displayCount += '+'; document.querySelector('#display').value = displayCount;">+</button>
-            <button class="button" onclick="displayCount += '3'; document.querySelector('#display').value = displayCount;">3</button>
-            <button class="button" onclick="displayCount += '4'; document.querySelector('#display').value = displayCount;">4</button>
-            <button class="button" onclick="displayCount += '-'; document.querySelector('#display').value = displayCount;">-</button>
-            <button class="button" onclick="displayCount += '5'; document.querySelector('#display').value = displayCount;">5</button>
-            <button class="button" onclick="displayCount += '6'; document.querySelector('#display').value = displayCount;">6</button>
-            <button class="button" onclick="displayCount += '*'; document.querySelector('#display').value = displayCount;">*</button>
-            <button class="button" onclick="displayCount += '7'; document.querySelector('#display').value = displayCount;">7</button>
-            <button class="button" onclick="displayCount += '8'; document.querySelector('#display').value = displayCount;">8</button>
-            <button class="button" onclick="displayCount += '/'; document.querySelector('#display').value = displayCount;">/</button>
-            <button class="button" onclick="displayCount += '0'; document.querySelector('#display').value = displayCount;">0</button>
-            <button class="button" onclick="displayCount += '9'; document.querySelector('#display').value = displayCount;">9</button>
-            <button class="button" onclick="displayCount += '.'; document.querySelector('#display').value = displayCount;">.</button>
-            <button class="button" onclick="displayCount =  eval(displayCount); document.querySelector('#display').value = displayCount;">=</button>
+        <input type="text" placeholder ="0" id="display">
+
+        <div>
+            <button class="button fd">AC</button>
+            <button class="button fd">DEL</button>
+            <button class="button fd">%</button>
+            <button class="button fd">/</button>
+        </div>
+        <div>
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button fd">*</button>
+        </div>
+        <div>
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button" >6</button>
+            <button class="button fd" >+</button>
+        </div>
+        <div>
+            <button class="button" >7</button>
+            <button class="button" >8</button>
+            <button class="button" >9</button>
+            <button class="button  fd" >-</button>
+        </div>
+        <div>
+            <button class="button" >00</button>
+            <button class="button" >0</button>
+            <button class="button" >.</button>
+            <button class="button" id="equal">=</button>
             
         </div>
     </div>
