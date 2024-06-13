@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, #352f3f, #2f4d4a);
+    background: linear-gradient(90deg, #332b41, #325350);
 }
 #calculator{
     border: 1px solid #717377;
@@ -47,11 +47,25 @@ body{
     box-shadow: -8px -8px 15px rgba(248, 244, 3, 0.1)
 }
 
+.button:hover{
+    color: rgb(161, 50, 50);
+    box-shadow: -8px -8px 15px rgba(117, 228, 14, 0.1);
+}
+
 .fd{
-    color: rgb(136, 179, 19);
+    color: rgb(173, 230, 17);
+}
+
+.fd:hover{
+    color: white;
+    background-color: rgb(218, 146, 15);
 }
 
 #equal{
     background-color: rgb(201, 89, 49);
 
+}
+
+#equal:hover{
+    color: white;
 }
